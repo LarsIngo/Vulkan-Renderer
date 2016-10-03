@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{39401c49-4110-4bec-b9af-bac046bcd0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Tools">
+      <UniqueIdentifier>{b634c898-2b94-4c1b-a06e-3082a0d2aad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Image">
+      <UniqueIdentifier>{2e4b0712-36e0-4b65-88f0-878ff252eae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\ShaderProgram">
+      <UniqueIdentifier>{01645981-be49-402f-a206-5bb274308289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Model">
+      <UniqueIdentifier>{e4b89006-1aa5-4d71-b5d7-f62a10828451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Geometry">
+      <UniqueIdentifier>{71478c3f-da88-48f7-9b8e-5f2a25fd4a15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTools.cpp">
+      <Filter>Renderer\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Renderer\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Renderer\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Renderer\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJMesh.cpp">
+      <Filter>Renderer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperGeometry.cpp">
+      <Filter>Renderer\Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RendererTools.hpp">
+      <Filter>Renderer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.hpp">
+      <Filter>Renderer\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="VDeleter.hpp">
+      <Filter>Renderer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="BUILD_OPTIONS.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.hpp">
+      <Filter>Renderer\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.hpp">
+      <Filter>Renderer\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJMesh.hpp">
+      <Filter>Renderer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperGeometry.hpp">
+      <Filter>Renderer\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
